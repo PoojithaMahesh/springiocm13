@@ -1,0 +1,10 @@
+package withoutxml;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages = {"withoutxml"})
+public class Config {
+
+}
